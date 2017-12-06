@@ -1,6 +1,6 @@
 cd ~
 
-git clone https://github.com/piksel/phantomjs-raspberrypi.git
+git clone https://github.com/marcotini/phantomjs.git
 
 chmod -x ~/phantomjs-raspberrypi/bin/phantomjs
 
