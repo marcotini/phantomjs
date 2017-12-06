@@ -1,18 +1,9 @@
-# [PhantomJS](http://phantomjs.org) for Raspberry Pi
+cd ~
 
-PhantomJS binary for Raspberry Pi.  
-Compiled on Raspbian Hardfloat.
+git clone https://github.com/piksel/phantomjs-raspberrypi.git
 
-Instruction set: __armv6__ (compatible with all raspberry pi devices)
+chmod -x ~/phantomjs-raspberrypi/bin/phantomjs
 
-__Note__: Due to different versions of libraries for Rasbian prior to Stretch, you'll have to use the [master branch](https://github.com/piksel/phantomjs-raspberrypi/tree/master).
+chmod 775 ~/phantomjs-raspberrypi/bin/phantomjs
 
-__2017-09-09__: Compiled 2.1.1 for Raspbian Stretch  
-__2017-06-26__: Compiled the first qt5 version: 2.1.1  
-__2014-11-18__: Updated to a freshly compiled 1.9.8 (latest as of writing this).
-
-__Dependencies__:
-`libicu57`, `libssl1.0.2`, `gstreamer0.10-base`, `fontconfig`, and `freetype2`
-
-To install them:  
-`sudo apt install libicu57 libssl1.0.2 gstreamer0.10-base fontconfig freetype2`  
+sudo ln -s /home/pi/phantomjs-raspberrypi/bin/phantomjs /usr/bin/
