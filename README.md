@@ -1,3 +1,5 @@
+sudo apt install libicu57 libssl1.0.2 gstreamer0.10-base fontconfig freetype2
+
 cd ~
 
 git clone https://github.com/marcotini/phantomjs.git
